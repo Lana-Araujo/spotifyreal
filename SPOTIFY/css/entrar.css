@@ -210,5 +210,11 @@ input:checked + #toogle:after {
 }
 
 #toogle:active:after {
-	width: 130px;
+	width: 60px;
+}
+
+.toogleT{
+    margin: 0;
+    padding-top: 10px;
+    color: white;
 }
