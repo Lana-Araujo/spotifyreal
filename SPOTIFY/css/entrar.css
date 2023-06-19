@@ -20,7 +20,9 @@ nav {
     color: white;
     font-family: verdana;
 }
-
+span {
+    color: #fff;
+}
 #form {
     display: flex;
     justify-content: center;
@@ -116,6 +118,7 @@ nav {
 #final {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 #inscrevase {
     display: grid;
@@ -152,7 +155,7 @@ nav {
   }
 
   #logoarrumadobtn2 {
-    margin-top: 15px;
+    margin-top: 8px;
     margin-right: 10px;
     width: 20px;
   }
@@ -160,7 +163,7 @@ nav {
   #logoarrumadobtn3 {
     width: 40px;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 6px;
   }
 
   #sub {
