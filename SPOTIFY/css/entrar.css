@@ -1,0 +1,221 @@
+body {
+    background-color: rgb(34, 33, 33);
+    margin: 0;
+}
+nav {
+    height: 80px;
+}
+#navbar {
+    background-color: black;
+}
+#navimg {
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 100px;
+    height: 50px;
+}
+#title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: verdana;
+}
+span {
+    color: #fff;
+}
+#form {
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+}
+#google {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 250px;
+    border-radius: 500px;
+    color: white;
+    padding-top:18px;
+    background-color: black;
+    border-style: none;
+}
+
+#face {
+    height: 50px;
+    width: 250px;
+    border-radius: 500px;
+    color: white;
+    background-color: black;
+    margin-top: 7px;
+    padding-bottom:20px;
+    border-style: none;
+    align-items: center;
+}
+
+#apple {
+    height: 50px;
+    width: 250px;
+    border-radius: 500px;
+    color: white;
+    background-color: black;
+    margin-top: 7px;
+    border-style: none;
+    padding-bottom: 35px;
+}
+
+#telefone {
+    height: 50px;
+    width: 250px;
+    border-radius: 500px;
+    color: white;
+    background-color: black;
+    margin-top: 7px;
+    border-style: none;
+    padding-top:10px;
+}
+
+#tracejado {
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+#id-nome {
+    background-color: rgb(21, 20, 20);
+    border-style: none;
+    height: 40px;
+    width: 260px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+#id-senha {
+    background-color: rgb(21, 20, 20);
+    border-style: none;
+    border:500px;
+    height: 40px;
+    width: 260px;
+    margin-top:10px;
+    border-radius: 7px;
+    border-color: white;
+}
+
+#btn {
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 500px;
+    background-color: rgb(30, 215, 96);
+    height: 45px;
+    width: 250px;
+}
+
+#esqsen {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+}
+#final {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+#inscrevase {
+    display: grid;
+    flex-direction: column;
+    color: white;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#paragrafo {
+    color:rgb(156, 149, 149);
+}
+.botoes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 640px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.coresletra {
+    color: white;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-left: 650px;
+    width: 200px;
+}
+  #logoarrumadobtn{
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    width: 20px;
+    border-style: none;
+  }
+
+  #logoarrumadobtn2 {
+    margin-top: 8px;
+    margin-right: 10px;
+    width: 20px;
+  }
+
+  #logoarrumadobtn3 {
+    width: 40px;
+    margin-right: 10px;
+    margin-top: 6px;
+  }
+
+  #sub {
+    border-style: none;
+  }
+
+  input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+#toogle {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 60px;
+	height: 20px;
+	background: grey;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+    color: white;
+}
+
+#toogle:after {
+	content: '';
+	position: absolute;
+	top: 2.5px;
+	left: 5px;
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + #toogle {
+	background-color: rgb(30, 215, 96);
+}
+
+input:checked + #toogle:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+#toogle:active:after {
+	width: 60px;
+}
+
+.toogleT{
+    margin: 0;
+    padding-top: 10px;
+    color: white;
+}
