@@ -138,10 +138,16 @@ nav li a:hover {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    gap: 7px;
 }
 .page{
     background-color: var(--black);
 }
 .page div{
     background-color: var(--tblack);
+}
+#side{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    gap: 7px;
 }
