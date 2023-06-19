@@ -1,0 +1,201 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+    
+    font-family: var(--font-family,CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    color: inherit;
+}
+
+
+h2{
+    font-weight: bold;
+    -webkit-tap-highlight-color: transparent;
+    margin-block: 0px;
+    font-size: 2rem;
+    font-family: var(--font-family,CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    color: inherit;
+    font-weight: 700;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: -0.09em;
+    margin-top: 40px;
+}
+
+body {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 500px;
+    margin: 0px auto;
+    position: relative;
+
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+input {
+    outline: none;
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;
+    border: 1px solid #b2b2b2;
+}
+
+input[type="submit"] {
+    width: 100% !important;
+    cursor: pointer;
+    background: #3274e7;
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #3274e7;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#cadastro,
+#login {
+    position: absolute;
+    top: 0px;
+    width: 90%;
+    padding: 18px 6% 60px 6%;
+    margin: 0 0 40px 0;
+    background: rgb(254, 254, 254);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.imglogo {
+    width: 130px;
+    height: 40px;
+}
+
+.container {
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    align-items: center;
+}
+
+.face{
+    outline: none;
+    width: 95%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 500px;
+    background-color: #405a93;
+    color: #fff;
+    align-items:baseline;
+    justify-content: space-around;
+}
+.face:hover{
+    background-color: #324e88;
+
+}
+
+.logoface{
+    width: 20px;
+    height: 20px;
+    
+}
+.logogoogle{
+    width: 20px;
+    height: 20px;
+}
+
+.google{
+    outline: none;
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;
+    border-radius: 500px;
+    background-color: #f6f4f4;
+    color: black;
+    align-items:baseline;
+    justify-content: space-around;
+}
+
+.google:hover{
+    background-color: #f9f5f5;
+}
+
+.perguntas{
+    text-align: left;
+}
+.perguntas2{
+    text-align: left;
+    color: #0c712f;
+    text-decoration: underline;
+}
+.telefone{
+    color: #0c712f;
+}
+
+
+#iddia{
+    width: 50px;
+    height: 50px;
+}
+
+#iddataano{
+    width: 150px;
+    height: 50px;
+}
+
+#genero{
+    display: inline;
+}
+
+#btninscrever{
+    outline: none;
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 500px;
+    background-color: #1ed760;
+    color: black;
+    align-items:baseline;
+    justify-content: space-around;
+}
+
+#btninscrever:hover{
+    background-color: #1bb150;
+}
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  ul li {
+    display: inline;
+    align-items: center;
+  }
+  
+  ul li a {
+    color: #dcd6d6;
+    text-decoration: none;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  ul li a:hover {
+    color: #666;
+  }
+
+  form action{
+    border-radius: 500px;
+  }
