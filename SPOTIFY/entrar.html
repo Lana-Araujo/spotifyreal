@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/entrar.css">
+    <title>Login - Spotify</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <img id="navimg" src="img/Spotify_Logo_RGB_White.png">
+    </nav>
+    <div id="form">
+        <h1 id="title">Entrar no Spotify</h1>
+    </div>
+    <div id="cordefundo">
+    <div class="botoes">
+        <a id="sub" href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1">
+            <button href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1" type="button"
+                id="google"><img id="logoarrumadobtn" src="img/logogoogle.png">Continuar Com O Google</button>
+        </a>
+        <a href="https://pt-br.facebook.com/">
+            <button type="button" id="face"><img id="logoarrumadobtn2" src="img/logofacebook.png">Continuar Com O
+                Facebook</button>
+        </a>
+        <a href="https://appleid.apple.com/">
+            <button type="button" id="apple"><img id="logoarrumadobtn3" src="img/applelogo.png">Continuar Com A
+                Apple</button>
+        </a>
+        <button type="button" id="telefone">Continuar Com Um Número De Telefone</button>
+    </div>
+    <p id="tracejado">------------------------------------------------------</p>
+    <div class="formulario">
+        <label for="nome" class="coresletra">E-mail ou nome de usuário</label>
+        <input type="text" name="nome" id="id-nome" placeholder="E-mail ou nome de usuário" required="requerided">
+        <label for="password" class="coresletra">Senha</label>
+        <input type="password" name="fone" id="id-senha" placeholder=" Senha">
+        <label class="switch">
+            <input type="checkbox" id="switch" /><label id="toogle" for="switch">Toggle</label>
+        <input type="submit" id="btn" onclick="Enviar()">
+
+        <a id="esqsen" href="inscrever.html">Esqueceu a senha?</a>
+    </div>
+
+    <p id="tracejado">------------------------------------------------------</p>
+    <div id="final">
+        <p id="paragrafo">Não tem uma conta?</p> <a id="inscrevase" href="inscrever.html">Inscrever-se no Spotify</a>
+    </div>
+</div>
+</body>
+
+</html>
